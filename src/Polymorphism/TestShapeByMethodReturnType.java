@@ -7,8 +7,8 @@ public class TestShapeByMethodReturnType {
         Shape[] s = new Shape[3];
 
         s[0] = Shape.getShape(1);
-        s[1] = Shape.getShape(1);
-        s[2] = Shape.getShape(1);
+        s[1] = Shape.getShape(2);
+        s[2] = Shape.getShape(3);
 
         }
 
