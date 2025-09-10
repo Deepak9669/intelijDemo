@@ -9,11 +9,8 @@ public class TestShapeByMethodReturnType {
         s[0] = Shape.getShape(1);
         s[1] = Shape.getShape(2);
         s[2] = Shape.getShape(3);
-<<<<<<< HEAD
 
-        }
-=======
->>>>>>> 4656d30 (done)
+
 
         Circle c = (Circle) s[0];
         c.setRadius(5);
@@ -30,4 +27,5 @@ public class TestShapeByMethodReturnType {
             System.out.println("area :" + s[i].area());
         }
     }
+
 }
